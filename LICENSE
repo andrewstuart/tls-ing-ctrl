@@ -1,0 +1,23 @@
+Command-line license generator.
+
+Usage:
+    license [-y <year>] [-n <name>] [-o <filename>] <license-name>
+
+Examples:
+    license mit   
+    license -o LICENSE.txt mpl-2.0
+    license -y 2013 -n Alice isc
+
+Options:
+    -y, --year    year on the license
+    -n, --name    name on the license
+    -o, --output  filename to save license
+
+Additional commands:
+    ls            list locally available license names
+    ls-remote     list remote license names
+    update        update local licenses to latest remote versions
+    help          show help information
+    version       print current version
+
+Run "license ls" to see list of available license names.
